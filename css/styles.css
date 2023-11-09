@@ -1,0 +1,149 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Montserrat-Bold" ;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+.big-heading{
+    font-family: "Montserrat-Black";
+font-size:  3.5rem;
+line-height: 1.5;
+font-weight: bold;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+/* navbar section */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.93);
+}
+.navbar{
+   padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-weight: bold;
+
+}
+.nav-link{
+    text-emphasis: none;
+    font-size: 1.2rem;
+}
+
+.download-button{
+   margin: 5% 3% 5% 0;
+}
+/* title section */
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+#title .container-fluid{
+    padding:3% 15% 7%;
+}
+/* title image */
+.title-image{
+    width:20% ;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+    bottom: 2.5%;
+}
+/* feature section */
+#features{
+    padding: 7% 0%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-title{
+    font-size:  2.5rem;
+    line-height: 1.5;
+}
+
+.features-box{
+    
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonials section */
+
+#testimonials{
+  
+    background-color: #ff4c68;
+    color: #fff;
+}
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-image{
+     width: 10%;
+     border-radius: 100%;
+     margin: 3%;
+}
+#press{
+    background-color: #ff4c68;
+  
+    padding: 20px 20px ;
+    padding-bottom: 3%;
+}
+.press-log{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+   
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-coloumn{
+    padding: 3% 2%;
+   
+}
+@media(max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+
+
+/* footer heading */
+
+.social-icon{
+    margin: 20px 10px;
+}
